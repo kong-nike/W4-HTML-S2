@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+
+      body{
+        margin: 0;
+        padding: 0;
+        background: rgb(255, 255, 255);
+      }
+  
+      .container {
+        height: 100vh;
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+      }
+
+      .header{
+        background-color: #1e90ff;
+        flex-grow: 0;
+        height: 100px;
+        border: 1px;
+        border-radius: 1px;
+        box-shadow: #0077ea;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        font-size: larger;
+      }
+      .footer {
+        background: #4169e1;
+        flex-grow: 0;
+        height: 100px;
+        text-align: center;
+        border-radius: 1px;
+        box-shadow: #1d44b8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        font-size: larger;
+      }
+
+      .main{
+        background:#3cb371;
+        text-align: center;
+        flex-grow: 2;
+        display: flex;
+        gap: 1em;
+        border-radius: 10px;
+        padding: 10px;
+        flex-wrap: wrap;
+        align-content: start;
+      }
+
+      .A{
+        display: flex;
+        gap: 1em;
+        flex-grow: 1;
+      }
+      .sidebar{
+        background-color: #ff6347;
+        flex-grow: 1;
+        border-radius: 10px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        font-size: larger;
+      }
+      .item{
+        height:120px;
+        width:120px;
+        border: 1px;
+        border-radius: 10px;
+        background-color:#2f8d59 ;
+        box-shadow:5px 10px #226741;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    .main p{
+        width: 100%;
+        font-size: larger;
+        color: white;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <p>Header</p>
+      </div>
+      <div class="A">
+        <div class="main">
+            <p>Main</p>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+        </div>
+        <div class="sidebar">
+            <p>sidebar</p>
+        </div>
+      </div>
+      <div class="footer">Footer</div>
+      </section>
+    </div>
+  </body>
+</html>
